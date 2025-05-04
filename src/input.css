@@ -20,4 +20,12 @@
     .course-title {
         @apply font-bold md:text-3xl lg:text-5xl text-2xl text-center md:text-left
     }
+
+    .footer-title {
+        @apply mb-4 font-bold uppercase tracking-widest text-[#20484F] text-lg text-center md:text-left dark:text-white
+    }
+
+    .footer-link {
+        @apply text-[#20484F] text-base transition duration-100 hover:text-indigo-500 active:text-indigo-600 dark:text-gray-200
+    }
 }
