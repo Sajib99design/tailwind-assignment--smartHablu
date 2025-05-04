@@ -9,7 +9,7 @@
     <title>Google IT Support Certificate</title>
 </head>
 
-<body class="bg-[#FAFAFA]">
+<body class="bg-[#FAFAFA] dark:bg-[#181C14]">
     <!-- this is nav section -->
     <header>
         <nav class="flex justify-between px-6 items-center py-4 ">
@@ -17,10 +17,10 @@
                 <a href="#"><img src="./img/logo.png" alt="logo"></a>
             </div>
             <div class="">
-                <ul class="hidden md:flex  space-x-5 ">
+                <ul class="hidden md:flex  space-x-5 dark:text-white">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Upskill</a></li>
+                    <li><a href="#" class="text-orange-600">Upskill</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
@@ -38,7 +38,7 @@
                 </button>
                 <button id="switch">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-8  hover:scale-105 transition duration-300 ">
+                        stroke="currentColor" class="size-8 dark:stroke-white hover:scale-105 transition duration-300 ">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
                     </svg>
@@ -242,7 +242,7 @@
 
     <!-- course-area start  -->
     <section class="course-area bg-white">
-        <div class="container mx-auto py-7 md:py-14 px-3 md:px-0">
+        <div class="container mx-auto py-7 md:py-14  px-3 md:px-0 md:mb-56 mb-9">
             <div class="max-w-[1280px] mx-auto  md:border-b border-orange-400 grid md:grid-cols-[9fr_3fr]">
                 <div class="course-left">
                     <h2 class="course-title">There are 5 Courses
@@ -281,10 +281,28 @@
         </div>
     </section>
 
+    <!-- testimonial area start  -->
+    <section
+        class="testimonial-area sm:py-12 md:pb-[72px] bg-[url('../img/group.png')] bg-cover bg-no-repeat bg-center">
+        <div class="container mx-auto">
+            <div
+                class="testimonial-inner w-full md:max-w-[590px] md:ml-8 bg-white rounded-lg md:py-[3.5rem] md:px-14 py-[2.5rem] px-7">
+                <img src="img/comma.png" alt="comma">
+                <h2 class="font-bold text-2xl md:pt-8 py-4 md:pb-12 ">I worked in retail and needed to make a change.
+                    The
+                    certificate
+                    is really designed for you to go at your own pace. This is something that anybody can do
+                </h2>
+                <p class="text-[#F9CCC7] font-semibold">Daniel, IT Support Specialist at Central Community College and
+                    Google IT Support Certificate graduate</p>
+            </div>
+        </div>
+    </section>
+
     <script>
-        const htmlTag = document.getElementById("htmlTag");
+        document.documentElement.classList.remove('dark');
         document.getElementById("switch").addEventListener("click", function () {
-            htmlTag.classList.toggle("dark");
+            document.documentElement.classList.toggle("dark");
         });
     </script>
 </body>
