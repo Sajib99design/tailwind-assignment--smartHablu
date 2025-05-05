@@ -13,14 +13,14 @@ It features:
 ## 🌐 Live Demo
 
 Check out the live site here:  
-👉 [**Live Website**]()
+👉 [**Live Website**](https://tailwindsmart.netlify.app/)
 
 ---
 
 ## 🛠 Repository
 
 Browse the code on GitHub:  
-👉 [**GitHub Repository**]()
+👉 [**GitHub Repository**](https://github.com/Sajib99design/tailwind-assignment--smartHablu.git)
 
 ---
 
@@ -43,4 +43,4 @@ This project was developed following the provided **Figma design** and aims to r
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/withrifat/IT-Support-twcss.git
+   git clone https://github.com/Sajib99design/tailwind-assignment--smartHablu.git
