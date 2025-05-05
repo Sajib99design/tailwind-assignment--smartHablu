@@ -19,6 +19,9 @@
     .course-btn1 {
         @apply py-2 px-6 border-black border rounded-full inline-block uppercase hover:bg-[#00FF84] transition-all duration-500 mr-3 md:mr-8
     }
+    .course-btn2 {
+        @apply py-3.5 px-4  lg:px-4  xl:px-6 2xl:px-8 bg-[#F44335] rounded-lg text-sm text-white inline-block  hover:bg-gray-500 transition-all duration-500
+    }
 
     .course-title {
         @apply font-bold md:text-3xl lg:text-5xl text-2xl text-center md:text-left

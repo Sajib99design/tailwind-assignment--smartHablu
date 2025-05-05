@@ -656,6 +656,50 @@ video {
   }
 }
 
+.course-btn2{
+  display: inline-block;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 67 53 / var(--tw-bg-opacity));
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
+.course-btn2:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 1024px){
+  .course-btn2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .course-btn2{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1536px){
+  .course-btn2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 .course-title{
   text-align: center;
   font-size: 1.5rem;
@@ -1058,11 +1102,6 @@ video {
   border-color: rgb(251 146 60 / var(--tw-border-opacity));
 }
 
-.border-t-orange-50{
-  --tw-border-opacity: 1;
-  border-top-color: rgb(255 247 237 / var(--tw-border-opacity));
-}
-
 .bg-\[\#2D3142\]{
   --tw-bg-opacity: 1;
   background-color: rgb(45 49 66 / var(--tw-bg-opacity));
@@ -1392,11 +1431,6 @@ video {
 .hover\:text-indigo-500:hover{
   --tw-text-opacity: 1;
   color: rgb(99 102 241 / var(--tw-text-opacity));
-}
-
-.hover\:text-orange-500:hover{
-  --tw-text-opacity: 1;
-  color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
 .hover\:drop-shadow-md:hover{
