@@ -10,7 +10,7 @@
     }
 
     .border-tag {
-        @apply p-3 py-2 border-2 rounded-full border-orange-500 inline-block mr-2
+        @apply p-3 py-1.5 border-2 rounded-full border-orange-500 inline-block mr-2
     }
 
     .course-btn1 {
@@ -27,5 +27,19 @@
 
     .footer-link {
         @apply text-[#20484F] text-base transition duration-100 hover:text-indigo-500 active:text-indigo-600 dark:text-gray-200
+    }
+
+    .course-title2 {
+        @apply text-[#F9CCC7] font-extrabold text-xl
+    }
+
+    .course-info {
+        @apply flex gap-3 items-center mb-3 font-medium
+    }
+    .course-title3 {
+        @apply  text-sm font-medium text-[#00FF84]
+    }
+    .course-title4 {
+        @apply  text-3xl text-white font-semibold
     }
 }
