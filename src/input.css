@@ -12,6 +12,9 @@
     .border-tag {
         @apply p-3 py-1.5 border-2 rounded-full border-orange-500 inline-block mr-2
     }
+    .border-tag {
+        @apply dark:text-orange-500  hover:bg-gray-500 transition-all duration-500 hover:text-orange-500
+    }
 
     .course-btn1 {
         @apply py-2 px-6 border-black border rounded-full inline-block uppercase hover:bg-[#00FF84] transition-all duration-500 mr-3 md:mr-8
