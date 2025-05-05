@@ -36,10 +36,14 @@
     .course-info {
         @apply flex gap-3 items-center mb-3 font-medium
     }
+
     .course-title3 {
-        @apply  text-sm font-medium text-[#00FF84]
+        @apply text-sm font-medium text-[#00FF84]
     }
+
     .course-title4 {
-        @apply  text-3xl text-white font-semibold
+        @apply text-white font-semibold text-2xl lg:text-3xl
     }
+
+
 }
