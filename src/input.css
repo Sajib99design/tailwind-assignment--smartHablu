@@ -50,6 +50,9 @@
     .course-title4 {
         @apply text-white font-semibold text-2xl lg:text-3xl
     }
+    .hero-btn {
+        @apply text-gray-900 bg-gray-200 font-medium rounded-lg  py-2 px-4 md:py-4 md:px-8  text-center ml-4 md:mr-0 hover:bg-gray-300 hover:drop-shadow-md focus:bg-gray-500 transition duration-300 ease-in-out
+    }
 
 
 }
